@@ -23,7 +23,6 @@ public class Code64 {
         int ans_a_index = -1;
         int ans_b_index = -1;
         for (int i = 0; i < a.size(); i++) {
-            System.out.println("##### i: " + i);
             int left = 0;
             int right = b.size() - 1;
             while (left <= right) {
